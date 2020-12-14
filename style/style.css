@@ -354,6 +354,10 @@ footer {
 }
 
 /* ---------- Contact ---------- */
+.map {
+    margin-bottom: -5px;
+}
+
 .map iframe {
     width: 100%;
 }
@@ -458,4 +462,60 @@ footer {
 
 .input-number-increment {
     background-image: url('../img/icons/plus.svg');
+}
+
+
+/* ---------- Login ---------- */
+.login-wrapper {
+    height: 100vh;
+    display: flex;
+}
+
+.login-data {
+    width: 30%;
+}
+
+.login-img {
+    width: 70%;
+    background-image: url('../img/shop-bg.jpg');
+}
+
+.login-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.login-form input {
+    padding: 10px 15px;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #d9d5d5;
+    border-radius: 5px;
+}
+
+.login-form .btn {
+    display: block;
+    margin-top: 20px;
+    align-self: center;
+}
+
+.login-title, .login-form input {
+    font-family: 'Poppins';
+}
+
+.login-text {
+    margin-top: 80px;
+    font-size: 14px;
+}
+
+.active-link {
+    color: var(--blue);
 }
