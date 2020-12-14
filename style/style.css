@@ -352,3 +352,45 @@ footer {
     display: flex;
     align-items: center;
 }
+
+/* ---------- Contact ---------- */
+.map iframe {
+    width: 100%;
+}
+
+.contact-form {
+    margin: 50px auto 0 auto;
+    width: 500px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-name {
+    margin-top: 10px;
+}
+
+.contact-input {
+    background-color: #F4EDF2;
+    border-radius: 5px;
+    border: 1px solid #F4EDF2;
+    padding: 13px 25px;
+    width: 49%;
+    line-height: 22px;
+    resize: none;
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+.contact-message {
+    width: 100%;
+}
+
+.contact-send {
+    display: block;
+    margin-top: 20px;
+    align-self: center;
+}
